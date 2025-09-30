@@ -1,6 +1,7 @@
 #include<iostream>
 #include "Battery.hpp"
 
+using namespace std;
 bool BatteryTemp(float temperature ) 
 {
   if(temperature < 0 || temperature > 45) 
